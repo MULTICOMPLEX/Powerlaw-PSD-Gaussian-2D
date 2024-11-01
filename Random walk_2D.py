@@ -1,9 +1,6 @@
 from matplotlib import pylab as plt
 import numpy as np
-from numpy.fft import irfft, rfftfreq, irfft2
-from matplotlib.ticker import ScalarFormatter
-import phimagic_prng32
-import phimagic_prng64
+from numpy.fft import rfftfreq, irfft2
 import time
 
 
@@ -131,14 +128,3 @@ contour = ax.contour(X, Y, noise, levels=32, cmap='Pastel1') #Or contourf
 #plt.grid()
 
 plt.show()
-
-
-
-
-
-
-
-
-
-
-
